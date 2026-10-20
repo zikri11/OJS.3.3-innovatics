@@ -84,24 +84,116 @@
 		{/if}
 	</div><!-- pkp_structure_content -->
 
-	<div class="pkp_structure_footer_wrapper" role="contentinfo">
-		<a id="pkp_content_footer"></a>
+	{if !$requestedPage || $requestedPage === 'index'}
+		{* ========================================================================= *}
+		{* 4-COLUMN MODERN DARK FOOTER SUITE (LEXA STYLE)                            *}
+		{* ========================================================================= *}
+		<footer class="pkp_structure_footer_wrapper lexa-footer-wrapper" role="contentinfo">
+			<a id="pkp_content_footer"></a>
+			<div class="lexa-footer-container">
+				<div class="lexa-footer-main">
+					<!-- Col 1: Brand & Profile -->
+					<div class="footer-col footer-col-brand">
+						<div class="footer-logo">
+							<img src="{$baseUrl}/public/journals/29/logo-innovatics-white.svg" alt="INNOVATICS White Logo" />
+						</div>
+						<p class="footer-about-text">
+							INNOVATICS (Innovation In Research of Informatics) is a peer-reviewed open access scientific journal published by Universitas Siliwangi.
+						</p>
+						<div class="footer-issn-box">
+							<span><strong>e-ISSN:</strong> 2656-8993</span>
+						</div>
+					</div>
 
-		<div class="pkp_structure_footer">
+					<!-- Col 2: Editorial Office -->
+					<div class="footer-col footer-col-contact">
+						<h4 class="footer-heading">Editorial Office</h4>
+						<p class="office-institution">Universitas Siliwangi</p>
+						<p class="office-faculty">Faculty of Engineering &bull; Dept. of Informatics</p>
+						<p class="office-address">
+							<i class="fa fa-map-marker"></i> Siliwangi University Campus 2 Informatics Building, Kota Tasikmalaya 46115, Jawa Barat, Indonesia
+						</p>
+						<p class="office-contact-item">
+							<i class="fa fa-envelope-o"></i> <a href="mailto:innovatics@unsil.ac.id">innovatics@unsil.ac.id</a>
+						</p>
+					</div>
 
-			{if $pageFooter}
-				<div class="pkp_footer_content">
-					{$pageFooter}
+					<!-- Col 3: Quick Links (2 Sub-Columns) -->
+					<div class="footer-col footer-col-links">
+						<h4 class="footer-heading">Quick Links</h4>
+						<div class="footer-links-grid">
+							<ul class="footer-nav-list">
+								<li><a href="{url page="index"}">&gt; Home Portal</a></li>
+								<li><a href="{url page="about"}">&gt; About Journal</a></li>
+								<li><a href="{url page="issue" op="current"}">&gt; Current Issue</a></li>
+								<li><a href="{url page="issue" op="archive"}">&gt; Issue Archives</a></li>
+							</ul>
+							<ul class="footer-nav-list">
+								<li><a href="{url page="about" op="editorialTeam"}">&gt; Editorial Team</a></li>
+								<li><a href="{url page="about" op="submissions"}">&gt; Guidelines</a></li>
+								<li><a href="{url page="about" op="submissions"}">&gt; Submissions</a></li>
+								<li><a href="{url page="about" op="contact"}">&gt; Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Col 4: Follow Us & Statistics -->
+					<div class="footer-col footer-col-social">
+						<h4 class="footer-heading">Follow &amp; Access</h4>
+						<div class="footer-social-icons">
+							<a href="https://twitter.com" target="_blank" rel="noopener" aria-label="X / Twitter" class="social-icon-btn"><i class="fa fa-twitter"></i></a>
+							<a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon-btn"><i class="fa fa-facebook"></i></a>
+							<a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon-btn"><i class="fa fa-linkedin"></i></a>
+							<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon-btn"><i class="fa fa-youtube-play"></i></a>
+						</div>
+						
+						<div class="footer-flag-counter">
+							<a href="https://info.flagcounter.com/ICno" target="_blank" rel="noopener">
+								<img src="https://s01.flagcounter.com/count2/ICno/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" />
+							</a>
+						</div>
+
+						<div class="footer-oa-badge">
+							<img src="{$baseUrl}/public/journals/29/open-access-logo.svg" alt="Open Access" class="oa-logo-img" />
+							<div class="oa-text">
+								<strong>Open Access for a Wider Impact</strong>
+								<p>Peer-reviewed global research publication.</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			{/if}
 
-			<div class="pkp_brand_footer" role="complementary">
-				<a href="{url page="about" op="aboutThisPublishingSystem"}">
-					<img alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
-				</a>
+				<!-- Sub-Footer / Copyright -->
+				<div class="lexa-subfooter">
+					<div class="subfooter-left">
+						&copy; 2026 <strong>INNOVATICS</strong>. Department of Informatics, Universitas Siliwangi. All rights reserved.
+					</div>
+					<div class="subfooter-right">
+						Powered by <a href="https://pkp.sfu.ca/ojs/" target="_blank" rel="noopener">Open Journal Systems</a> &bull; Universitas Siliwangi
+					</div>
+				</div>
 			</div>
-		</div>
-	</div><!-- pkp_structure_footer_wrapper -->
+		</footer>
+	{else}
+		<div class="pkp_structure_footer_wrapper" role="contentinfo">
+			<a id="pkp_content_footer"></a>
+
+			<div class="pkp_structure_footer">
+
+				{if $pageFooter}
+					<div class="pkp_footer_content">
+						{$pageFooter}
+					</div>
+				{/if}
+
+				<div class="pkp_brand_footer" role="complementary">
+					<a href="{url page="about" op="aboutThisPublishingSystem"}">
+						<img alt="{translate key="about.aboutThisPublishingSystem"}" src="{$baseUrl}/{$brandImage}">
+					</a>
+				</div>
+			</div>
+		</div><!-- pkp_structure_footer_wrapper -->
+	{/if}
 
 	</div><!-- pkp_structure_page -->
 

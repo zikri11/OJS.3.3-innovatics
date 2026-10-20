@@ -177,7 +177,7 @@
 						</div>
 
 						<div class="lexa-hero-visual">
-							<img src="{$baseUrl}/public/journals/29/hero-network.png" alt="LEXA Tech Network Visual" class="lexa-hero-img" />
+							<img src="{$baseUrl}/public/journals/29/hero-innovatics.png" alt="INNOVATICS Tech Network Visual" class="lexa-hero-img" />
 						</div>
 					</div>
 				</div>
