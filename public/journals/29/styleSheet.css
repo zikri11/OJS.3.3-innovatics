@@ -6829,3 +6829,562 @@ body.lexa-theme-layout .page_announcements h1 {
   text-transform: none !important;
   letter-spacing: normal !important;
 }
+
+/* =========================================================================
+ * PRIORITAS 1: ISSUE ARCHIVE & SINGLE ISSUE VIEW STYLES
+ * ========================================================================= */
+/* Archive Page Container */
+body.lexa-theme-layout .page_issue_archive .issues_archive {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  border: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .issues_archive > li {
+  padding: 0 !important;
+  border: none !important;
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+/* Issue Card in Archive */
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 26px 28px !important;
+  box-shadow: 0 2px 8px rgba(10, 37, 64, 0.05) !important;
+  transition: all 0.2s ease-in-out !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08) !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary h2 {
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 6px !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary .title {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary .title:hover {
+  color: #2B7DE9 !important;
+  text-decoration: underline !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary .series {
+  display: inline-block !important;
+  background-color: #E6F2FF !important;
+  color: #134074 !important;
+  font-family: 'Inter', -apple-system, sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  padding: 3px 10px !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary .description {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  line-height: 1.65 !important;
+  margin-top: 14px !important;
+}
+
+body.lexa-theme-layout .page_issue_archive .obj_issue_summary .description img,
+body.lexa-theme-layout .page_issue .obj_issue_toc .heading .description img {
+  max-height: 20px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+  margin-right: 6px !important;
+  border-radius: 2px !important;
+  display: inline-block !important;
+}
+
+/* Single Issue Page View (/issue/view/...) */
+body.lexa-theme-layout .page_issue h1 {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  border-left: 4px solid #134074 !important;
+  border-bottom: none !important;
+  padding: 2px 0 2px 14px !important;
+  margin: 0 0 24px 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_issue_toc {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_issue_toc .heading {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 26px 28px !important;
+  box-shadow: 0 2px 8px rgba(10, 37, 64, 0.05) !important;
+  margin-bottom: 32px !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_issue_toc .heading .description {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  line-height: 1.65 !important;
+  margin-bottom: 14px !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_issue_toc .heading .published {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 12.5px !important;
+  color: #64748B !important;
+  font-weight: 500 !important;
+}
+
+body.lexa-theme-layout .page_issue .sections h2,
+body.lexa-theme-layout .page_issue .sections h3 {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  border-left: 4px solid #134074 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  padding: 2px 0 2px 14px !important;
+  margin: 0 0 20px 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .cmp_article_list.articles {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+body.lexa-theme-layout .page_issue .cmp_article_list.articles > li {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary {
+  display: flex !important;
+  flex-direction: column !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 22px 24px !important;
+  box-shadow: 0 2px 6px rgba(10, 37, 64, 0.04) !important;
+  transition: all 0.2s ease-in-out !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08) !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 16.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .title a {
+  color: #0A2540 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .title a:hover {
+  color: #2B7DE9 !important;
+  text-decoration: underline !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .meta {
+  margin: 0 0 14px 0 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .meta .authors {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .obj_galley_link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background-color: #134074 !important;
+  color: #FFFFFF !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  padding: 7px 16px !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  box-shadow: 0 2px 4px rgba(19, 64, 116, 0.15) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .obj_galley_link:hover {
+  background-color: #0D2C4D !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 8px rgba(19, 64, 116, 0.25) !important;
+  transform: translateY(-1px) !important;
+}
+
+body.lexa-theme-layout .page_issue .obj_article_summary .obj_galley_link:before {
+  content: "\f1c1" !important;
+  font-family: 'FontAwesome' !important;
+  font-size: 13px !important;
+}
+
+/* =========================================================================
+ * PRIORITAS 2 (OPSI A): EDITORIAL TEAM PAGE STYLING
+ * ========================================================================= */
+body.lexa-theme-layout .page_editorial_team p {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 22px 26px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 2px 6px rgba(10, 37, 64, 0.04) !important;
+  line-height: 1.75 !important;
+  color: #475569 !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13.5px !important;
+  box-sizing: border-box !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_editorial_team p:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 12px rgba(10, 37, 64, 0.08) !important;
+}
+
+/* Highlight Editor-in-Chief & Advisory Chair */
+body.lexa-theme-layout .page_editorial_team p:first-of-type,
+body.lexa-theme-layout .page_editorial_team p:nth-of-type(2) {
+  border-left: 4px solid #134074 !important;
+}
+
+/* Role Label & Person Names */
+body.lexa-theme-layout .page_editorial_team p strong {
+  color: #0A2540 !important;
+  font-weight: 700 !important;
+}
+
+body.lexa-theme-layout .page_editorial_team p strong:first-child {
+  font-size: 14.5px !important;
+  color: #134074 !important;
+  display: inline-block !important;
+  margin-bottom: 4px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  font-weight: 800 !important;
+}
+
+/* Scopus & Google Scholar Badges */
+body.lexa-theme-layout .page_editorial_team a[href*="scopus.com"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 2px 8px !important;
+  background-color: #FFF7ED !important;
+  color: #EA580C !important;
+  border: 1px solid #FDBA74 !important;
+  border-radius: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  margin: 0 4px !important;
+  transition: all 0.2s ease-in-out !important;
+  line-height: 1.3 !important;
+}
+
+body.lexa-theme-layout .page_editorial_team a[href*="scopus.com"]:hover {
+  background-color: #EA580C !important;
+  color: #FFFFFF !important;
+  border-color: #EA580C !important;
+}
+
+body.lexa-theme-layout .page_editorial_team a[href*="scholar.google"] {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 2px 8px !important;
+  background-color: #EFF6FF !important;
+  color: #2563EB !important;
+  border: 1px solid #BFDBFE !important;
+  border-radius: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  margin: 0 4px !important;
+  transition: all 0.2s ease-in-out !important;
+  line-height: 1.3 !important;
+}
+
+body.lexa-theme-layout .page_editorial_team a[href*="scholar.google"]:hover {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  border-color: #2563EB !important;
+}
+
+/* Contact Emails */
+body.lexa-theme-layout .page_editorial_team em {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: #134074 !important;
+  font-size: 12.5px !important;
+  background-color: #F8FAFC !important;
+  padding: 2px 8px !important;
+  border-radius: 4px !important;
+  border: 1px solid #E2E8F0 !important;
+  display: inline-block !important;
+  margin-top: 4px !important;
+}
+
+/* Hide empty paragraphs or paragraphs without strong tag at the bottom */
+body.lexa-theme-layout .page_editorial_team p:empty,
+body.lexa-theme-layout .page_editorial_team p:not(:has(strong)) {
+  display: none !important;
+}
+
+/* =========================================================================
+ * EDITORIAL TEAM: 2-COLUMN SYMMETRIC DIRECTORY GRID
+ * ========================================================================= */
+body.lexa-theme-layout .lexa-team-section {
+  margin-bottom: 30px !important;
+}
+
+body.lexa-theme-layout .lexa-team-role {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  border-left: 4px solid #134074 !important;
+  padding: 2px 0 2px 12px !important;
+  margin: 0 0 16px 0 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Featured Lead Cards (Advisory Chair, Editor-in-Chief, Copy Editor) */
+body.lexa-theme-layout .lexa-lead-card {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 22px 26px !important;
+  box-shadow: 0 2px 8px rgba(10, 37, 64, 0.04) !important;
+  transition: all 0.2s ease-in-out !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .lexa-lead-card:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08) !important;
+}
+
+body.lexa-theme-layout .lead-card-header,
+body.lexa-theme-layout .editor-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 8px !important;
+}
+
+body.lexa-theme-layout .lead-name {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  margin: 0 !important;
+}
+
+body.lexa-theme-layout .lead-affiliation {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  line-height: 1.55 !important;
+  margin-bottom: 8px !important;
+}
+
+body.lexa-theme-layout .lead-interests,
+body.lexa-theme-layout .editor-interests {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 12.5px !important;
+  color: #64748B !important;
+  line-height: 1.5 !important;
+  margin-bottom: 8px !important;
+}
+
+body.lexa-theme-layout .lead-interests strong,
+body.lexa-theme-layout .editor-interests strong {
+  color: #334155 !important;
+}
+
+body.lexa-theme-layout .lead-email,
+body.lexa-theme-layout .editor-email {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 12px !important;
+  color: #134074 !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background-color: #F8FAFC !important;
+  padding: 3px 10px !important;
+  border-radius: 4px !important;
+  border: 1px solid #E2E8F0 !important;
+  margin-top: 4px !important;
+}
+
+body.lexa-theme-layout .lead-email a,
+body.lexa-theme-layout .editor-email a {
+  color: #134074 !important;
+  text-decoration: none !important;
+}
+
+body.lexa-theme-layout .lead-email a:hover,
+body.lexa-theme-layout .editor-email a:hover {
+  color: #2B7DE9 !important;
+  text-decoration: underline !important;
+}
+
+/* 2-Column Grid for Editors */
+body.lexa-theme-layout .lexa-editor-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 16px !important;
+}
+
+body.lexa-theme-layout .lexa-editor-card {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 18px 20px !important;
+  box-shadow: 0 1px 4px rgba(10, 37, 64, 0.04) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  transition: all 0.2s ease-in-out !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .lexa-editor-card:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 12px rgba(10, 37, 64, 0.08) !important;
+  transform: translateY(-1px) !important;
+}
+
+body.lexa-theme-layout .editor-name {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  margin: 0 !important;
+  line-height: 1.35 !important;
+}
+
+body.lexa-theme-layout .editor-affiliation {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 12.5px !important;
+  color: #475569 !important;
+  line-height: 1.5 !important;
+  margin-top: 6px !important;
+}
+
+/* Badge Buttons for Scopus and Google Scholar */
+body.lexa-theme-layout .lead-badges,
+body.lexa-theme-layout .editor-badges {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+body.lexa-theme-layout .badge-scopus {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 2px 8px !important;
+  background-color: #FFF7ED !important;
+  color: #EA580C !important;
+  border: 1px solid #FDBA74 !important;
+  border-radius: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out !important;
+  line-height: 1.3 !important;
+}
+
+body.lexa-theme-layout .badge-scopus:hover {
+  background-color: #EA580C !important;
+  color: #FFFFFF !important;
+  border-color: #EA580C !important;
+}
+
+body.lexa-theme-layout .badge-scholar {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 2px 8px !important;
+  background-color: #EFF6FF !important;
+  color: #2563EB !important;
+  border: 1px solid #BFDBFE !important;
+  border-radius: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out !important;
+  line-height: 1.3 !important;
+}
+
+body.lexa-theme-layout .badge-scholar:hover {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  border-color: #2563EB !important;
+}
+
+@media (max-width: 768px) {
+  body.lexa-theme-layout .lexa-editor-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
