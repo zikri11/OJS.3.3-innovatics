@@ -18,7 +18,7 @@
 					{$sidebarCode}
 
 					{* INJEKSI KARTU INDEXING KHUSUS INNOVATICS DI BAWAH SUPPORTED *}
-					{if $currentJournal && $currentJournal->getPath() == 'innovatics' && (!$requestedPage || $requestedPage === 'index')}
+					{if $currentJournal && $currentJournal->getPath() == 'innovatics' && $requestedPage !== 'article'}
 						<div class="pkp_block block_custom lexa-indexing-card" id="customblock-indexing-lexa">
 							<h2 class="title">INDEXED BY</h2>
 							<div class="content lexa-indexing-grid">
@@ -84,7 +84,7 @@
 		{/if}
 	</div><!-- pkp_structure_content -->
 
-	{if !$requestedPage || $requestedPage === 'index'}
+	{if $requestedPage !== 'article'}
 		{* ========================================================================= *}
 		{* 4-COLUMN MODERN DARK FOOTER SUITE (LEXA STYLE)                            *}
 		{* ========================================================================= *}

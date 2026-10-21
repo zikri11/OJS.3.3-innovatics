@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: "FontAwesome";
   src: url("//journals.telkomuniversity.ac.id/lib/pkp/fonts/fontawesome/fontawesome-webfont.eot?v=4.3.0");
   src: url("//journals.telkomuniversity.ac.id/lib/pkp/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.3.0")
@@ -5138,11 +5138,11 @@ input[type="checkbox"] {
 /* =========================================================================
  * FASE 1: LEXA THEME HEADER SUITE FOR INNOVATICS (SCOPED TO LANDING PAGE)
  * ========================================================================= */
-body.pkp_page_index {
+body.lexa-theme-layout {
   background-color: #FFFFFF;
 }
 
-body.pkp_page_index .pkp_structure_page {
+body.lexa-theme-layout .pkp_structure_page {
   width: 100%;
   max-width: 100%;
   margin: 0;
@@ -5152,7 +5152,7 @@ body.pkp_page_index .pkp_structure_page {
 }
 
 /* 1. Top Utility Bar */
-body.pkp_page_index .lexa-topbar-wrapper {
+body.lexa-theme-layout .lexa-topbar-wrapper {
   background-color: #0A2540;
   color: #FFFFFF;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -5164,7 +5164,7 @@ body.pkp_page_index .lexa-topbar-wrapper {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-body.pkp_page_index .lexa-container {
+body.lexa-theme-layout .lexa-container {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
@@ -5172,7 +5172,7 @@ body.pkp_page_index .lexa-container {
   box-sizing: border-box;
 }
 
-body.pkp_page_index .lexa-topbar-inner {
+body.lexa-theme-layout .lexa-topbar-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5181,7 +5181,7 @@ body.pkp_page_index .lexa-topbar-inner {
   width: 100%;
 }
 
-body.pkp_page_index .lexa-topbar-left {
+body.lexa-theme-layout .lexa-topbar-left {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -5189,12 +5189,12 @@ body.pkp_page_index .lexa-topbar-left {
   font-weight: 400;
 }
 
-body.pkp_page_index .lexa-topbar-left .topbar-sep {
+body.lexa-theme-layout .lexa-topbar-left .topbar-sep {
   color: rgba(255, 255, 255, 0.25);
   font-size: 11px;
 }
 
-body.pkp_page_index .lexa-topbar-right {
+body.lexa-theme-layout .lexa-topbar-right {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -5203,7 +5203,7 @@ body.pkp_page_index .lexa-topbar-right {
   padding: 0;
 }
 
-body.pkp_page_index .topbar-link {
+body.lexa-theme-layout .topbar-link {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   font-weight: 500;
@@ -5211,17 +5211,17 @@ body.pkp_page_index .topbar-link {
   transition: all 0.2s ease-in-out;
 }
 
-body.pkp_page_index .topbar-link:hover {
+body.lexa-theme-layout .topbar-link:hover {
   color: #FFFFFF;
   text-decoration: underline;
 }
 
-body.pkp_page_index .topbar-link-highlight {
+body.lexa-theme-layout .topbar-link-highlight {
   color: #38BDF8 !important;
   font-weight: 700 !important;
 }
 
-body.pkp_page_index .topbar-lang-dropdown {
+body.lexa-theme-layout .topbar-lang-dropdown {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -5230,19 +5230,19 @@ body.pkp_page_index .topbar-lang-dropdown {
   font-size: 12px;
 }
 
-body.pkp_page_index .topbar-lang-dropdown .lang-chevron {
+body.lexa-theme-layout .topbar-lang-dropdown .lang-chevron {
   font-size: 9px;
   opacity: 0.8;
 }
 
 /* 2. Main Brand Header & Search System */
-body.pkp_page_index .lexa-header-wrapper {
+body.lexa-theme-layout .lexa-header-wrapper {
   background-color: #FFFFFF;
   border-bottom: 1px solid #E2E8F0;
   padding: 0;
 }
 
-body.pkp_page_index .lexa-header-inner {
+body.lexa-theme-layout .lexa-header-inner {
   max-width: 1240px;
   margin: 0 auto;
   padding: 18px 24px;
@@ -5253,33 +5253,33 @@ body.pkp_page_index .lexa-header-inner {
   box-sizing: border-box;
 }
 
-body.pkp_page_index .lexa-brand-block {
+body.lexa-theme-layout .lexa-brand-block {
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
 }
 
-body.pkp_page_index .lexa-brand-link {
+body.lexa-theme-layout .lexa-brand-link {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-body.pkp_page_index .lexa-brand-logo {
+body.lexa-theme-layout .lexa-brand-logo {
   height: 56px;
   width: auto;
   max-width: 100%;
   display: block;
 }
 
-body.pkp_page_index .lexa-search-block {
+body.lexa-theme-layout .lexa-search-block {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-body.pkp_page_index .lexa-search-form {
+body.lexa-theme-layout .lexa-search-form {
   display: flex;
   align-items: center;
   position: relative;
@@ -5287,7 +5287,7 @@ body.pkp_page_index .lexa-search-form {
   height: 40px;
 }
 
-body.pkp_page_index .lexa-search-input {
+body.lexa-theme-layout .lexa-search-input {
   width: 100% !important;
   height: 40px !important;
   margin: 0 !important;
@@ -5301,13 +5301,13 @@ body.pkp_page_index .lexa-search-input {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .lexa-search-input:focus {
+body.lexa-theme-layout .lexa-search-input:focus {
   outline: none !important;
   border-color: #134074 !important;
   box-shadow: 0 0 0 3px rgba(19, 64, 116, 0.12) !important;
 }
 
-body.pkp_page_index .lexa-search-btn {
+body.lexa-theme-layout .lexa-search-btn {
   position: absolute;
   right: 0;
   top: 0;
@@ -5325,16 +5325,16 @@ body.pkp_page_index .lexa-search-btn {
   transition: all 0.2s ease-in-out;
 }
 
-body.pkp_page_index .lexa-search-btn:hover {
+body.lexa-theme-layout .lexa-search-btn:hover {
   background-color: #0D2C4D;
 }
 
-body.pkp_page_index .lexa-search-sublinks {
+body.lexa-theme-layout .lexa-search-sublinks {
   margin-top: 4px;
   text-align: right;
 }
 
-body.pkp_page_index .lexa-search-adv {
+body.lexa-theme-layout .lexa-search-adv {
   font-size: 12px;
   color: #134074;
   text-decoration: none;
@@ -5342,20 +5342,20 @@ body.pkp_page_index .lexa-search-adv {
   transition: all 0.2s ease-in-out;
 }
 
-body.pkp_page_index .lexa-search-adv:hover {
+body.lexa-theme-layout .lexa-search-adv:hover {
   text-decoration: underline;
   color: #0D2C4D;
 }
 
 /* 3. Primary Navigation Bar */
-body.pkp_page_index .lexa-navbar-wrapper {
+body.lexa-theme-layout .lexa-navbar-wrapper {
   background-color: #FFFFFF;
   border-top: 1px solid #E2E8F0;
   border-bottom: 1px solid #E2E8F0;
   padding: 0;
 }
 
-body.pkp_page_index .lexa-navbar-inner {
+body.lexa-theme-layout .lexa-navbar-inner {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 24px;
@@ -5364,7 +5364,7 @@ body.pkp_page_index .lexa-navbar-inner {
   box-sizing: border-box;
 }
 
-body.pkp_page_index .lexa-navbar-menu {
+body.lexa-theme-layout .lexa-navbar-menu {
   display: flex;
   align-items: center;
   gap: 28px;
@@ -5373,17 +5373,17 @@ body.pkp_page_index .lexa-navbar-menu {
   padding: 0;
 }
 
-body.pkp_page_index .lexa-navbar-menu > .menu-item {
+body.lexa-theme-layout .lexa-navbar-menu > .menu-item {
   position: relative;
   margin: 0;
   padding: 0;
 }
 
-body.pkp_page_index .lexa-navbar-menu > .menu-item:first-child > a {
+body.lexa-theme-layout .lexa-navbar-menu > .menu-item:first-child > a {
   padding-left: 0;
 }
 
-body.pkp_page_index .lexa-navbar-menu > .menu-item > a {
+body.lexa-theme-layout .lexa-navbar-menu > .menu-item > a {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -5398,25 +5398,25 @@ body.pkp_page_index .lexa-navbar-menu > .menu-item > a {
   white-space: nowrap;
 }
 
-body.pkp_page_index .lexa-navbar-menu > .menu-item > a:hover,
-body.pkp_page_index .lexa-navbar-menu > .menu-item.active > a {
+body.lexa-theme-layout .lexa-navbar-menu > .menu-item > a:hover,
+body.lexa-theme-layout .lexa-navbar-menu > .menu-item.active > a {
   color: #134074;
   border-bottom-color: #134074;
   text-decoration: none;
 }
 
-body.pkp_page_index .lexa-navbar-menu .nav-chevron {
+body.lexa-theme-layout .lexa-navbar-menu .nav-chevron {
   font-size: 9px;
   color: #64748B;
   margin-left: 2px;
 }
 
 /* Dropdown Menus */
-body.pkp_page_index .menu-item.has-dropdown:hover > .dropdown-menu {
+body.lexa-theme-layout .menu-item.has-dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-body.pkp_page_index .dropdown-menu {
+body.lexa-theme-layout .dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -5432,12 +5432,12 @@ body.pkp_page_index .dropdown-menu {
   padding: 6px 0;
 }
 
-body.pkp_page_index .dropdown-menu li {
+body.lexa-theme-layout .dropdown-menu li {
   margin: 0;
   padding: 0;
 }
 
-body.pkp_page_index .dropdown-menu li a {
+body.lexa-theme-layout .dropdown-menu li a {
   display: block;
   padding: 9px 18px;
   font-size: 13px;
@@ -5447,13 +5447,13 @@ body.pkp_page_index .dropdown-menu li a {
   transition: all 0.2s ease-in-out;
 }
 
-body.pkp_page_index .dropdown-menu li a:hover {
+body.lexa-theme-layout .dropdown-menu li a:hover {
   background-color: #E6F2FF;
   color: #134074;
   text-decoration: none;
 }
 
-body.pkp_page_index .pkp_structure_content {
+body.lexa-theme-layout .pkp_structure_content {
   display: flex !important;
   flex-direction: row !important;
   max-width: 1240px !important;
@@ -5466,7 +5466,7 @@ body.pkp_page_index .pkp_structure_content {
 /* =========================================================================
  * FASE 2: SIDEBAR RIGHT & 70/30 GRID LAYOUT (SCOPED TO LANDING PAGE)
  * ========================================================================= */
-body.pkp_page_index .pkp_structure_main {
+body.lexa-theme-layout .pkp_structure_main {
   flex: 1 1 68% !important;
   width: auto !important;
   min-width: 0 !important;
@@ -5475,7 +5475,7 @@ body.pkp_page_index .pkp_structure_main {
   margin: 0 !important;
 }
 
-body.pkp_page_index .pkp_structure_sidebar {
+body.lexa-theme-layout .pkp_structure_sidebar {
   flex: 0 0 32% !important;
   width: 32% !important;
   min-width: 300px !important;
@@ -5486,10 +5486,10 @@ body.pkp_page_index .pkp_structure_sidebar {
 }
 
 /* Remove old divider lines and pseudo-elements */
-body.pkp_page_index .pkp_structure_sidebar:before,
-body.pkp_page_index .pkp_structure_sidebar:after,
-body.pkp_page_index .pkp_structure_main:before,
-body.pkp_page_index .pkp_structure_main:after {
+body.lexa-theme-layout .pkp_structure_sidebar:before,
+body.lexa-theme-layout .pkp_structure_sidebar:after,
+body.lexa-theme-layout .pkp_structure_main:before,
+body.lexa-theme-layout .pkp_structure_main:after {
   display: none !important;
   content: none !important;
   border: none !important;
@@ -5498,7 +5498,7 @@ body.pkp_page_index .pkp_structure_main:after {
 }
 
 /* Sidebar Card Widgets */
-body.pkp_page_index .pkp_structure_sidebar .pkp_block {
+body.lexa-theme-layout .pkp_structure_sidebar .pkp_block {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -5510,12 +5510,12 @@ body.pkp_page_index .pkp_structure_sidebar .pkp_block {
 }
 
 /* Hide empty block Accreditation */
-body.pkp_page_index #customblock-supported {
+body.lexa-theme-layout #customblock-supported {
   display: none !important;
 }
 
 /* Block Title Header */
-body.pkp_page_index .pkp_structure_sidebar .title {
+body.lexa-theme-layout .pkp_structure_sidebar .title {
   width: 100% !important;
   background-color: transparent !important;
   color: #0A2540 !important;
@@ -5532,12 +5532,12 @@ body.pkp_page_index .pkp_structure_sidebar .title {
 }
 
 /* Quick Menu List */
-body.pkp_page_index #customblock-quick-menu .content {
+body.lexa-theme-layout #customblock-quick-menu .content {
   display: flex !important;
   flex-direction: column !important;
 }
 
-body.pkp_page_index #customblock-quick-menu .menu_item {
+body.lexa-theme-layout #customblock-quick-menu .menu_item {
   margin: 0 !important;
   padding: 9px 4px !important;
   border-bottom: 1px solid #F1F5F9 !important;
@@ -5546,11 +5546,11 @@ body.pkp_page_index #customblock-quick-menu .menu_item {
   align-items: center !important;
 }
 
-body.pkp_page_index #customblock-quick-menu .menu_item:last-of-type {
+body.lexa-theme-layout #customblock-quick-menu .menu_item:last-of-type {
   border-bottom: none !important;
 }
 
-body.pkp_page_index #customblock-quick-menu .menu_item a {
+body.lexa-theme-layout #customblock-quick-menu .menu_item a {
   display: flex !important;
   align-items: center !important;
   gap: 8px !important;
@@ -5563,13 +5563,13 @@ body.pkp_page_index #customblock-quick-menu .menu_item a {
   width: 100% !important;
 }
 
-body.pkp_page_index #customblock-quick-menu .menu_item a:hover {
+body.lexa-theme-layout #customblock-quick-menu .menu_item a:hover {
   color: #134074 !important;
   transform: translateX(4px) !important;
   text-decoration: none !important;
 }
 
-body.pkp_page_index #customblock-quick-menu .menu_item em.fa {
+body.lexa-theme-layout #customblock-quick-menu .menu_item em.fa {
   width: 20px !important;
   color: #134074 !important;
   font-size: 14px !important;
@@ -5577,8 +5577,8 @@ body.pkp_page_index #customblock-quick-menu .menu_item em.fa {
 }
 
 /* Journal Template CTA Button */
-body.pkp_page_index #customblock-quick-menu a[title="Journal Template"],
-body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"] {
+body.lexa-theme-layout #customblock-quick-menu a[title="Journal Template"],
+body.lexa-theme-layout #customblock-quick-menu a[href*="docs.google.com"] {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -5596,21 +5596,21 @@ body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"] {
   text-align: center !important;
 }
 
-body.pkp_page_index #customblock-quick-menu a[title="Journal Template"]:hover,
-body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"]:hover {
+body.lexa-theme-layout #customblock-quick-menu a[title="Journal Template"]:hover,
+body.lexa-theme-layout #customblock-quick-menu a[href*="docs.google.com"]:hover {
   background: linear-gradient(135deg, #1d559a 0%, #134074 100%) !important;
   box-shadow: 0 6px 16px rgba(10, 37, 64, 0.24) !important;
   transform: translateY(-1px) !important;
   color: #FFFFFF !important;
 }
 
-body.pkp_page_index #customblock-quick-menu a[title="Journal Template"] img,
-body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"] img {
+body.lexa-theme-layout #customblock-quick-menu a[title="Journal Template"] img,
+body.lexa-theme-layout #customblock-quick-menu a[href*="docs.google.com"] img {
   display: none !important;
 }
 
-body.pkp_page_index #customblock-quick-menu a[title="Journal Template"]::before,
-body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"]::before {
+body.lexa-theme-layout #customblock-quick-menu a[title="Journal Template"]::before,
+body.lexa-theme-layout #customblock-quick-menu a[href*="docs.google.com"]::before {
   content: "\f019  Download Article Template";
   font-family: 'FontAwesome', 'Inter', -apple-system, sans-serif !important;
   font-size: 13px !important;
@@ -5618,16 +5618,16 @@ body.pkp_page_index #customblock-quick-menu a[href*="docs.google.com"]::before {
 }
 
 /* Supported Widget (2x2 Grid) */
-body.pkp_page_index #customblock-supported692789a175982 .content,
-body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .content {
+body.lexa-theme-layout #customblock-supported692789a175982 .content,
+body.lexa-theme-layout .pkp_block[id*="supported"]:not(#customblock-supported) .content {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
   gap: 12px !important;
   align-items: center !important;
 }
 
-body.pkp_page_index #customblock-supported692789a175982 .content p,
-body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .content p {
+body.lexa-theme-layout #customblock-supported692789a175982 .content p,
+body.lexa-theme-layout .pkp_block[id*="supported"]:not(#customblock-supported) .content p {
   margin: 0 !important;
   padding: 10px !important;
   background-color: #FFFFFF !important;
@@ -5641,14 +5641,14 @@ body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .con
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index #customblock-supported692789a175982 .content p:hover,
-body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .content p:hover {
+body.lexa-theme-layout #customblock-supported692789a175982 .content p:hover,
+body.lexa-theme-layout .pkp_block[id*="supported"]:not(#customblock-supported) .content p:hover {
   border-color: #CBD5E1 !important;
   box-shadow: 0 2px 8px rgba(10, 37, 64, 0.08) !important;
 }
 
-body.pkp_page_index #customblock-supported692789a175982 .content img,
-body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .content img {
+body.lexa-theme-layout #customblock-supported692789a175982 .content img,
+body.lexa-theme-layout .pkp_block[id*="supported"]:not(#customblock-supported) .content img {
   max-width: 100% !important;
   max-height: 42px !important;
   width: auto !important;
@@ -5660,15 +5660,15 @@ body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .con
 
 /* Responsive Breakpoints for Sidebar */
 @media (max-width: 991px) {
-  body.pkp_page_index .pkp_structure_content {
+  body.lexa-theme-layout .pkp_structure_content {
     flex-direction: column !important;
     gap: 24px !important;
   }
-  body.pkp_page_index .pkp_structure_main {
+  body.lexa-theme-layout .pkp_structure_main {
     flex: 1 1 100% !important;
     width: 100% !important;
   }
-  body.pkp_page_index .pkp_structure_sidebar {
+  body.lexa-theme-layout .pkp_structure_sidebar {
     flex: 1 1 100% !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -5681,14 +5681,14 @@ body.pkp_page_index .pkp_block[id*="supported"]:not(#customblock-supported) .con
  * ========================================================================= */
 
 /* Section Headings with Modern LEXA Left Bar */
-body.pkp_page_index .page_index_journal section {
+body.lexa-theme-layout .page_index_journal section {
   margin-bottom: 36px !important;
 }
 
-body.pkp_page_index .homepage_about h2,
-body.pkp_page_index .cmp_announcements h2,
-body.pkp_page_index .current_issue h2,
-body.pkp_page_index .current_issue .sections h3 {
+body.lexa-theme-layout .homepage_about h2,
+body.lexa-theme-layout .cmp_announcements h2,
+body.lexa-theme-layout .current_issue h2,
+body.lexa-theme-layout .current_issue .sections h3 {
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 20px !important;
   font-weight: 700 !important;
@@ -5708,7 +5708,7 @@ body.pkp_page_index .current_issue .sections h3 {
 }
 
 /* Section: About the Journal Card */
-body.pkp_page_index .homepage_about {
+body.lexa-theme-layout .homepage_about {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -5717,20 +5717,20 @@ body.pkp_page_index .homepage_about {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .homepage_about #journalDescription {
+body.lexa-theme-layout .homepage_about #journalDescription {
   color: #334155 !important;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 13.5px !important;
   line-height: 1.65 !important;
 }
 
-body.pkp_page_index .homepage_about table {
+body.lexa-theme-layout .homepage_about table {
   max-width: 100% !important;
   margin: 14px 0 !important;
 }
 
 /* Section: Announcements */
-body.pkp_page_index .cmp_announcements {
+body.lexa-theme-layout .cmp_announcements {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -5744,10 +5744,10 @@ body.pkp_page_index .cmp_announcements {
   margin-bottom: 36px !important;
 }
 
-body.pkp_page_index .cmp_announcements:before,
-body.pkp_page_index .cmp_announcements:after,
-body.pkp_page_index .cmp_announcements .more,
-body.pkp_page_index .cmp_announcements > .obj_announcement_summary:before {
+body.lexa-theme-layout .cmp_announcements:before,
+body.lexa-theme-layout .cmp_announcements:after,
+body.lexa-theme-layout .cmp_announcements .more,
+body.lexa-theme-layout .cmp_announcements > .obj_announcement_summary:before {
   display: none !important;
   content: none !important;
   width: 0 !important;
@@ -5755,8 +5755,8 @@ body.pkp_page_index .cmp_announcements > .obj_announcement_summary:before {
   border: none !important;
 }
 
-body.pkp_page_index .cmp_announcements > .obj_announcement_summary,
-body.pkp_page_index .cmp_announcements h2 + .obj_announcement_summary {
+body.lexa-theme-layout .cmp_announcements > .obj_announcement_summary,
+body.lexa-theme-layout .cmp_announcements h2 + .obj_announcement_summary {
   float: none !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -5766,7 +5766,7 @@ body.pkp_page_index .cmp_announcements h2 + .obj_announcement_summary {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .obj_announcement_summary {
+body.lexa-theme-layout .obj_announcement_summary {
   padding: 12px 0 0 0 !important;
   border: none !important;
   margin: 0 !important;
@@ -5774,30 +5774,30 @@ body.pkp_page_index .obj_announcement_summary {
   float: none !important;
 }
 
-body.pkp_page_index .obj_announcement_summary:last-of-type {
+body.lexa-theme-layout .obj_announcement_summary:last-of-type {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
 
-body.pkp_page_index .obj_announcement_summary h3 {
+body.lexa-theme-layout .obj_announcement_summary h3 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 16px !important;
   font-weight: 700 !important;
   margin: 0 0 6px 0 !important;
 }
 
-body.pkp_page_index .obj_announcement_summary h3 a {
+body.lexa-theme-layout .obj_announcement_summary h3 a {
   color: #0A2540 !important;
   text-decoration: none !important;
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .obj_announcement_summary h3 a:hover {
+body.lexa-theme-layout .obj_announcement_summary h3 a:hover {
   color: #2B7DE9 !important;
   text-decoration: underline !important;
 }
 
-body.pkp_page_index .obj_announcement_summary .date {
+body.lexa-theme-layout .obj_announcement_summary .date {
   font-size: 12px !important;
   color: #64748B !important;
   font-weight: 500 !important;
@@ -5805,13 +5805,13 @@ body.pkp_page_index .obj_announcement_summary .date {
   display: inline-block !important;
 }
 
-body.pkp_page_index .obj_announcement_summary .summary {
+body.lexa-theme-layout .obj_announcement_summary .summary {
   font-size: 13.5px !important;
   color: #334155 !important;
   line-height: 1.6 !important;
 }
 
-body.pkp_page_index .obj_announcement_summary .read_more {
+body.lexa-theme-layout .obj_announcement_summary .read_more {
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
@@ -5823,13 +5823,13 @@ body.pkp_page_index .obj_announcement_summary .read_more {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .obj_announcement_summary .read_more:hover {
+body.lexa-theme-layout .obj_announcement_summary .read_more:hover {
   color: #2B7DE9 !important;
   transform: translateX(3px) !important;
 }
 
 /* Section: Current Issue Container */
-body.pkp_page_index .current_issue {
+body.lexa-theme-layout .current_issue {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -5839,18 +5839,18 @@ body.pkp_page_index .current_issue {
   margin-bottom: 36px !important;
 }
 
-body.pkp_page_index .lexa-section-header {
+body.lexa-theme-layout .lexa-section-header {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
   margin-bottom: 18px !important;
 }
 
-body.pkp_page_index .lexa-section-header h2 {
+body.lexa-theme-layout .lexa-section-header h2 {
   margin: 0 !important;
 }
 
-body.pkp_page_index .lexa-section-header .lexa-view-all {
+body.lexa-theme-layout .lexa-section-header .lexa-view-all {
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
@@ -5862,18 +5862,18 @@ body.pkp_page_index .lexa-section-header .lexa-view-all {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .lexa-section-header .lexa-view-all:hover {
+body.lexa-theme-layout .lexa-section-header .lexa-view-all:hover {
   color: #2B7DE9 !important;
   transform: translateX(3px) !important;
 }
 
-body.pkp_page_index .lexa-section-header .lexa-view-all:after {
+body.lexa-theme-layout .lexa-section-header .lexa-view-all:after {
   content: " \f178" !important;
   font-family: 'FontAwesome' !important;
   font-size: 11px !important;
 }
 
-body.pkp_page_index .lexa-current-issue-card {
+body.lexa-theme-layout .lexa-current-issue-card {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -5883,7 +5883,7 @@ body.pkp_page_index .lexa-current-issue-card {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .lexa-current-issue-card .current_issue_title {
+body.lexa-theme-layout .lexa-current-issue-card .current_issue_title {
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 17px !important;
   font-weight: 700 !important;
@@ -5893,20 +5893,20 @@ body.pkp_page_index .lexa-current-issue-card .current_issue_title {
   border-bottom: 1px solid #F1F5F9 !important;
 }
 
-body.pkp_page_index .lexa-current-issue-card .description {
+body.lexa-theme-layout .lexa-current-issue-card .description {
   font-size: 13.5px !important;
   color: #475569 !important;
   line-height: 1.6 !important;
   margin-bottom: 12px !important;
 }
 
-body.pkp_page_index .lexa-current-issue-card .published {
+body.lexa-theme-layout .lexa-current-issue-card .published {
   font-size: 12px !important;
   color: #64748B !important;
   font-weight: 500 !important;
 }
 
-body.pkp_page_index .lexa-articles-section {
+body.lexa-theme-layout .lexa-articles-section {
   margin-bottom: 36px !important;
   background: transparent !important;
   border: none !important;
@@ -5914,7 +5914,7 @@ body.pkp_page_index .lexa-articles-section {
   box-shadow: none !important;
 }
 
-body.pkp_page_index .current_issue .current_issue_title {
+body.lexa-theme-layout .current_issue .current_issue_title {
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 17px !important;
   font-weight: 700 !important;
@@ -5924,28 +5924,28 @@ body.pkp_page_index .current_issue .current_issue_title {
   border-bottom: 1px solid #F1F5F9 !important;
 }
 
-body.pkp_page_index .current_issue .obj_issue_toc .heading .description {
+body.lexa-theme-layout .current_issue .obj_issue_toc .heading .description {
   font-size: 13.5px !important;
   color: #475569 !important;
   line-height: 1.6 !important;
   margin-bottom: 12px !important;
 }
 
-body.pkp_page_index .current_issue .obj_issue_toc .heading .published {
+body.lexa-theme-layout .current_issue .obj_issue_toc .heading .published {
   font-size: 12px !important;
   color: #64748B !important;
   font-weight: 500 !important;
   margin-bottom: 24px !important;
 }
 
-body.pkp_page_index .current_issue .sections {
+body.lexa-theme-layout .current_issue .sections {
   margin-top: 18px !important;
   border-top: 1px solid #E2E8F0 !important;
   padding-top: 20px !important;
 }
 
 /* Article Cards (.obj_article_summary) */
-body.pkp_page_index .cmp_article_list.articles {
+body.lexa-theme-layout .cmp_article_list.articles {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -5954,13 +5954,13 @@ body.pkp_page_index .cmp_article_list.articles {
   gap: 16px !important;
 }
 
-body.pkp_page_index .cmp_article_list.articles > li {
+body.lexa-theme-layout .cmp_article_list.articles > li {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-body.pkp_page_index .obj_article_summary {
+body.lexa-theme-layout .obj_article_summary {
   display: flex !important;
   flex-direction: column !important;
   background-color: #FFFFFF !important;
@@ -5973,12 +5973,12 @@ body.pkp_page_index .obj_article_summary {
   margin: 0 !important;
 }
 
-body.pkp_page_index .obj_article_summary:hover {
+body.lexa-theme-layout .obj_article_summary:hover {
   border-color: #CBD5E1 !important;
   box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08) !important;
 }
 
-body.pkp_page_index .obj_article_summary .title {
+body.lexa-theme-layout .obj_article_summary .title {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 16.5px !important;
   font-weight: 700 !important;
@@ -5988,22 +5988,22 @@ body.pkp_page_index .obj_article_summary .title {
   letter-spacing: normal !important;
 }
 
-body.pkp_page_index .obj_article_summary .title a {
+body.lexa-theme-layout .obj_article_summary .title a {
   color: #0A2540 !important;
   text-decoration: none !important;
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .obj_article_summary .title a:hover {
+body.lexa-theme-layout .obj_article_summary .title a:hover {
   color: #2B7DE9 !important;
   text-decoration: underline !important;
 }
 
-body.pkp_page_index .obj_article_summary .meta {
+body.lexa-theme-layout .obj_article_summary .meta {
   margin: 0 0 14px 0 !important;
 }
 
-body.pkp_page_index .obj_article_summary .meta .authors {
+body.lexa-theme-layout .obj_article_summary .meta .authors {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 13.5px !important;
   color: #475569 !important;
@@ -6012,7 +6012,7 @@ body.pkp_page_index .obj_article_summary .meta .authors {
 }
 
 /* Galley Button / PDF Download */
-body.pkp_page_index .obj_article_summary .galleys_links {
+body.lexa-theme-layout .obj_article_summary .galleys_links {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -6021,12 +6021,12 @@ body.pkp_page_index .obj_article_summary .galleys_links {
   gap: 10px !important;
 }
 
-body.pkp_page_index .obj_article_summary .galleys_links li {
+body.lexa-theme-layout .obj_article_summary .galleys_links li {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-body.pkp_page_index .obj_article_summary .obj_galley_link {
+body.lexa-theme-layout .obj_article_summary .obj_galley_link {
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
@@ -6042,21 +6042,21 @@ body.pkp_page_index .obj_article_summary .obj_galley_link {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .obj_article_summary .obj_galley_link:hover {
+body.lexa-theme-layout .obj_article_summary .obj_galley_link:hover {
   background-color: #0D2C4D !important;
   color: #FFFFFF !important;
   box-shadow: 0 4px 8px rgba(19, 64, 116, 0.25) !important;
   transform: translateY(-1px) !important;
 }
 
-body.pkp_page_index .obj_article_summary .obj_galley_link:before {
+body.lexa-theme-layout .obj_article_summary .obj_galley_link:before {
   content: "\f1c1" !important;
   font-family: 'FontAwesome' !important;
   font-size: 13px !important;
 }
 
 /* View All Issues Button */
-body.pkp_page_index .current_issue > a.read_more {
+body.lexa-theme-layout .current_issue > a.read_more {
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
@@ -6069,12 +6069,12 @@ body.pkp_page_index .current_issue > a.read_more {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .current_issue > a.read_more:hover {
+body.lexa-theme-layout .current_issue > a.read_more:hover {
   color: #2B7DE9 !important;
   transform: translateX(3px) !important;
 }
 
-body.pkp_page_index .current_issue > a.read_more:after {
+body.lexa-theme-layout .current_issue > a.read_more:after {
   content: " \f178" !important;
   font-family: 'FontAwesome' !important;
   font-size: 12px !important;
@@ -6084,16 +6084,16 @@ body.pkp_page_index .current_issue > a.read_more:after {
  * FASE 3 TAMBAHAN: INDEXING BY IN SIDEBAR & CLEANUP
  * ========================================================================= */
 /* Sembunyikan tabel broken indexing lama di kolom tengah */
-body.pkp_page_index .homepage_about table:last-of-type,
-body.pkp_page_index .homepage_about table[style*="border-collapse"],
-body.pkp_page_index #additionalHomeContent table,
-body.pkp_page_index .homepage_about img[src*="ejournal.unsil.ac.id"],
-body.pkp_page_index #additionalHomeContent .col-md-12 p:last-child {
+body.lexa-theme-layout .homepage_about table:last-of-type,
+body.lexa-theme-layout .homepage_about table[style*="border-collapse"],
+body.lexa-theme-layout #additionalHomeContent table,
+body.lexa-theme-layout .homepage_about img[src*="ejournal.unsil.ac.id"],
+body.lexa-theme-layout #additionalHomeContent .col-md-12 p:last-child {
   display: none !important;
 }
 
 /* Styling Card INDEXED BY di Sidebar Kanan (Gaya LEXA) */
-body.pkp_page_index #customblock-indexing-lexa {
+body.lexa-theme-layout #customblock-indexing-lexa {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -6103,7 +6103,7 @@ body.pkp_page_index #customblock-indexing-lexa {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index #customblock-indexing-lexa .title {
+body.lexa-theme-layout #customblock-indexing-lexa .title {
   width: 100% !important;
   background: transparent !important;
   color: #0A2540 !important;
@@ -6119,14 +6119,14 @@ body.pkp_page_index #customblock-indexing-lexa .title {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index #customblock-indexing-lexa .lexa-indexing-grid {
+body.lexa-theme-layout #customblock-indexing-lexa .lexa-indexing-grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
   gap: 12px !important;
   align-items: center !important;
 }
 
-body.pkp_page_index #customblock-indexing-lexa .indexing-item {
+body.lexa-theme-layout #customblock-indexing-lexa .indexing-item {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -6139,12 +6139,12 @@ body.pkp_page_index #customblock-indexing-lexa .indexing-item {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index #customblock-indexing-lexa .indexing-item:hover {
+body.lexa-theme-layout #customblock-indexing-lexa .indexing-item:hover {
   border-color: #CBD5E1 !important;
   box-shadow: 0 2px 8px rgba(10, 37, 64, 0.08) !important;
 }
 
-body.pkp_page_index #customblock-indexing-lexa .indexing-item img {
+body.lexa-theme-layout #customblock-indexing-lexa .indexing-item img {
   max-width: 100% !important;
   max-height: 42px !important;
   width: auto !important;
@@ -6154,7 +6154,7 @@ body.pkp_page_index #customblock-indexing-lexa .indexing-item img {
 }
 
 /* Styling Card ARTICLES di Sidebar Kanan (Gaya LEXA) */
-body.pkp_page_index #customblock-articles-lexa {
+body.lexa-theme-layout #customblock-articles-lexa {
   background-color: #FFFFFF !important;
   border: 1px solid #E2E8F0 !important;
   border-radius: 8px !important;
@@ -6164,7 +6164,7 @@ body.pkp_page_index #customblock-articles-lexa {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .title {
+body.lexa-theme-layout #customblock-articles-lexa .title {
   width: 100% !important;
   background: transparent !important;
   color: #0A2540 !important;
@@ -6180,23 +6180,23 @@ body.pkp_page_index #customblock-articles-lexa .title {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .lexa-sidebar-articles-list {
+body.lexa-theme-layout #customblock-articles-lexa .lexa-sidebar-articles-list {
   display: flex !important;
   flex-direction: column !important;
   gap: 12px !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-item {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-item {
   padding-bottom: 12px !important;
   border-bottom: 1px solid #F1F5F9 !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-item:last-of-type {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-item:last-of-type {
   border-bottom: none !important;
   padding-bottom: 4px !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-title {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-title {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 13px !important;
   font-weight: 600 !important;
@@ -6204,18 +6204,18 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-article-title {
   margin: 0 0 6px 0 !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-title a {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-title a {
   color: #0A2540 !important;
   text-decoration: none !important;
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-title a:hover {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-title a:hover {
   color: #2B7DE9 !important;
   text-decoration: underline !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-authors {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-authors {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 11.5px !important;
   color: #64748B !important;
@@ -6223,14 +6223,14 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-article-authors {
   line-height: 1.35 !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-actions {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-actions {
   display: flex !important;
   align-items: center !important;
   gap: 8px !important;
   flex-wrap: wrap !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-link {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-link {
   display: inline-flex !important;
   align-items: center !important;
   gap: 4px !important;
@@ -6241,11 +6241,11 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-article-link {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-link:hover {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-link:hover {
   color: #2B7DE9 !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-galley-pdf {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-galley-pdf {
   display: inline-flex !important;
   align-items: center !important;
   gap: 4px !important;
@@ -6259,19 +6259,19 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-galley-pdf {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-galley-pdf:hover {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-galley-pdf:hover {
   background-color: #0D2C4D !important;
   color: #FFFFFF !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-article-footer {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-article-footer {
   margin-top: 8px !important;
   padding-top: 10px !important;
   border-top: 1px solid #E2E8F0 !important;
   text-align: right !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-view-all {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-view-all {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 12px !important;
   font-weight: 700 !important;
@@ -6283,7 +6283,7 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-view-all {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index #customblock-articles-lexa .sidebar-view-all:hover {
+body.lexa-theme-layout #customblock-articles-lexa .sidebar-view-all:hover {
   color: #2B7DE9 !important;
   transform: translateX(3px) !important;
 }
@@ -6291,7 +6291,7 @@ body.pkp_page_index #customblock-articles-lexa .sidebar-view-all:hover {
 /* =========================================================================
  * 6. HERO SECTION & METRICS RIBBON (RAW LEXA 3.3 STYLE)
  * ========================================================================= */
-body.pkp_page_index .lexa-hero-container {
+body.lexa-theme-layout .lexa-hero-container {
   margin: 0 0 8px 0 !important;
   padding: 0 !important;
   background-color: #FFFFFF !important;
@@ -6300,7 +6300,7 @@ body.pkp_page_index .lexa-hero-container {
   box-shadow: none !important;
 }
 
-body.pkp_page_index .lexa-hero-banner {
+body.lexa-theme-layout .lexa-hero-banner {
   display: flex !important;
   align-items: stretch !important;
   justify-content: space-between !important;
@@ -6313,7 +6313,7 @@ body.pkp_page_index .lexa-hero-banner {
   gap: 32px !important;
 }
 
-body.pkp_page_index .lexa-hero-content {
+body.lexa-theme-layout .lexa-hero-content {
   flex: 1 1 58% !important;
   padding: 36px 0 32px 0 !important;
   display: flex !important;
@@ -6322,7 +6322,7 @@ body.pkp_page_index .lexa-hero-content {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .lexa-badge-pill {
+body.lexa-theme-layout .lexa-badge-pill {
   display: inline-flex !important;
   align-items: center !important;
   align-self: flex-start !important;
@@ -6339,13 +6339,13 @@ body.pkp_page_index .lexa-badge-pill {
   margin-bottom: 16px !important;
 }
 
-body.pkp_page_index .lexa-hero-title {
+body.lexa-theme-layout .lexa-hero-title {
   margin: 0 0 16px 0 !important;
   line-height: 1.15 !important;
   display: block !important;
 }
 
-body.pkp_page_index .lexa-hero-title .title-serif {
+body.lexa-theme-layout .lexa-hero-title .title-serif {
   display: block !important;
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 36px !important;
@@ -6355,7 +6355,7 @@ body.pkp_page_index .lexa-hero-title .title-serif {
   margin-bottom: 2px !important;
 }
 
-body.pkp_page_index .lexa-hero-title .title-brand {
+body.lexa-theme-layout .lexa-hero-title .title-brand {
   display: block !important;
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 40px !important;
@@ -6364,11 +6364,11 @@ body.pkp_page_index .lexa-hero-title .title-brand {
   letter-spacing: -0.5px !important;
 }
 
-body.pkp_page_index .lexa-hero-subtitle {
+body.lexa-theme-layout .lexa-hero-subtitle {
   display: none !important;
 }
 
-body.pkp_page_index .lexa-hero-desc {
+body.lexa-theme-layout .lexa-hero-desc {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 14px !important;
   line-height: 1.65 !important;
@@ -6377,14 +6377,14 @@ body.pkp_page_index .lexa-hero-desc {
   max-width: 620px !important;
 }
 
-body.pkp_page_index .lexa-hero-actions {
+body.lexa-theme-layout .lexa-hero-actions {
   display: flex !important;
   align-items: center !important;
   gap: 14px !important;
   margin-bottom: 0 !important;
 }
 
-body.pkp_page_index .lexa-btn {
+body.lexa-theme-layout .lexa-btn {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -6399,14 +6399,14 @@ body.pkp_page_index .lexa-btn {
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .lexa-btn-primary {
+body.lexa-theme-layout .lexa-btn-primary {
   background-color: #0A2540 !important;
   color: #FFFFFF !important;
   border: 1px solid #0A2540 !important;
   box-shadow: 0 2px 4px rgba(10, 37, 64, 0.1) !important;
 }
 
-body.pkp_page_index .lexa-btn-primary:hover {
+body.lexa-theme-layout .lexa-btn-primary:hover {
   background-color: #134074 !important;
   border-color: #134074 !important;
   color: #FFFFFF !important;
@@ -6414,20 +6414,20 @@ body.pkp_page_index .lexa-btn-primary:hover {
   transform: translateY(-1px) !important;
 }
 
-body.pkp_page_index .lexa-btn-outline {
+body.lexa-theme-layout .lexa-btn-outline {
   background-color: transparent !important;
   color: #0A2540 !important;
   border: 1.5px solid #0A2540 !important;
 }
 
-body.pkp_page_index .lexa-btn-outline:hover {
+body.lexa-theme-layout .lexa-btn-outline:hover {
   background-color: #0A2540 !important;
   color: #FFFFFF !important;
   text-decoration: none !important;
 }
 
 /* Right Hero Visual */
-body.pkp_page_index .lexa-hero-visual {
+body.lexa-theme-layout .lexa-hero-visual {
   flex: 1 1 42% !important;
   overflow: hidden !important;
   display: flex !important;
@@ -6436,7 +6436,7 @@ body.pkp_page_index .lexa-hero-visual {
   background-color: transparent !important;
 }
 
-body.pkp_page_index .lexa-hero-img {
+body.lexa-theme-layout .lexa-hero-img {
   width: 100% !important;
   max-height: 380px !important;
   object-fit: contain !important;
@@ -6446,7 +6446,7 @@ body.pkp_page_index .lexa-hero-img {
 }
 
 /* Metrics Ribbon Underneath Submit Manuscript */
-body.pkp_page_index .lexa-metrics-ribbon {
+body.lexa-theme-layout .lexa-metrics-ribbon {
   display: flex !important;
   align-items: center !important;
   justify-content: flex-start !important;
@@ -6459,7 +6459,7 @@ body.pkp_page_index .lexa-metrics-ribbon {
   flex-wrap: wrap !important;
 }
 
-body.pkp_page_index .lexa-metric-item {
+body.lexa-theme-layout .lexa-metric-item {
   display: flex !important;
   align-items: center !important;
   gap: 10px !important;
@@ -6467,7 +6467,7 @@ body.pkp_page_index .lexa-metric-item {
   border: none !important;
 }
 
-body.pkp_page_index .metric-icon {
+body.lexa-theme-layout .metric-icon {
   width: auto !important;
   height: auto !important;
   border-radius: 0 !important;
@@ -6479,12 +6479,12 @@ body.pkp_page_index .metric-icon {
   font-size: 22px !important;
 }
 
-body.pkp_page_index .metric-info {
+body.lexa-theme-layout .metric-info {
   display: flex !important;
   flex-direction: column !important;
 }
 
-body.pkp_page_index .metric-value {
+body.lexa-theme-layout .metric-value {
   font-family: 'Merriweather', Georgia, serif !important;
   font-size: 15.5px !important;
   font-weight: 700 !important;
@@ -6492,7 +6492,7 @@ body.pkp_page_index .metric-value {
   line-height: 1.1 !important;
 }
 
-body.pkp_page_index .metric-label {
+body.lexa-theme-layout .metric-label {
   font-family: 'Inter', sans-serif !important;
   font-size: 10.5px !important;
   font-weight: 500 !important;
@@ -6503,18 +6503,18 @@ body.pkp_page_index .metric-label {
 }
 
 @media (max-width: 991px) {
-  body.pkp_page_index .lexa-hero-banner {
+  body.lexa-theme-layout .lexa-hero-banner {
     flex-direction: column !important;
     gap: 20px !important;
     padding-bottom: 24px !important;
   }
-  body.pkp_page_index .lexa-hero-content {
+  body.lexa-theme-layout .lexa-hero-content {
     padding: 24px 0 0 0 !important;
   }
-  body.pkp_page_index .lexa-hero-visual {
+  body.lexa-theme-layout .lexa-hero-visual {
     justify-content: center !important;
   }
-  body.pkp_page_index .lexa-hero-img {
+  body.lexa-theme-layout .lexa-hero-img {
     max-height: 240px !important;
   }
 }
@@ -6522,7 +6522,7 @@ body.pkp_page_index .metric-label {
 /* =========================================================================
  * FASE 4: 4-COLUMN MODERN DARK FOOTER SUITE (LEXA STYLE)
  * ========================================================================= */
-body.pkp_page_index .lexa-footer-wrapper {
+body.lexa-theme-layout .lexa-footer-wrapper {
   background-color: #0A2540 !important;
   border-top: 3px solid #134074 !important;
   margin: 48px 0 0 0 !important;
@@ -6532,14 +6532,14 @@ body.pkp_page_index .lexa-footer-wrapper {
   color: #FFFFFF !important;
 }
 
-body.pkp_page_index .lexa-footer-container {
+body.lexa-theme-layout .lexa-footer-container {
   max-width: 1240px !important;
   margin: 0 auto !important;
   padding: 48px 24px 24px !important;
   box-sizing: border-box !important;
 }
 
-body.pkp_page_index .lexa-footer-main {
+body.lexa-theme-layout .lexa-footer-main {
   display: grid !important;
   grid-template-columns: 1.5fr 1.2fr 1.2fr 1.1fr !important;
   gap: 36px !important;
@@ -6547,13 +6547,13 @@ body.pkp_page_index .lexa-footer-main {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-body.pkp_page_index .footer-col-brand .footer-logo img {
+body.lexa-theme-layout .footer-col-brand .footer-logo img {
   max-height: 48px !important;
   width: auto !important;
   margin-bottom: 14px !important;
 }
 
-body.pkp_page_index .footer-about-text {
+body.lexa-theme-layout .footer-about-text {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 13px !important;
   line-height: 1.6 !important;
@@ -6561,7 +6561,7 @@ body.pkp_page_index .footer-about-text {
   margin: 0 0 16px !important;
 }
 
-body.pkp_page_index .footer-issn-box {
+body.lexa-theme-layout .footer-issn-box {
   display: flex !important;
   flex-direction: column !important;
   gap: 4px !important;
@@ -6569,7 +6569,7 @@ body.pkp_page_index .footer-issn-box {
   color: #94A3B8 !important;
 }
 
-body.pkp_page_index .footer-heading {
+body.lexa-theme-layout .footer-heading {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 14px !important;
   font-weight: 800 !important;
@@ -6579,7 +6579,7 @@ body.pkp_page_index .footer-heading {
   margin: 0 0 16px !important;
 }
 
-body.pkp_page_index .office-institution {
+body.lexa-theme-layout .office-institution {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 13px !important;
   font-weight: 700 !important;
@@ -6587,14 +6587,14 @@ body.pkp_page_index .office-institution {
   margin: 0 0 4px !important;
 }
 
-body.pkp_page_index .office-faculty {
+body.lexa-theme-layout .office-faculty {
   font-size: 12px !important;
   color: #94A3B8 !important;
   margin: 0 0 10px !important;
 }
 
-body.pkp_page_index .office-address,
-body.pkp_page_index .office-contact-item {
+body.lexa-theme-layout .office-address,
+body.lexa-theme-layout .office-contact-item {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 12.5px !important;
   color: #E2E8F0 !important;
@@ -6605,41 +6605,41 @@ body.pkp_page_index .office-contact-item {
   line-height: 1.5 !important;
 }
 
-body.pkp_page_index .office-address i,
-body.pkp_page_index .office-contact-item i {
+body.lexa-theme-layout .office-address i,
+body.lexa-theme-layout .office-contact-item i {
   color: #38BDF8 !important;
   font-size: 13px !important;
   margin-top: 3px !important;
 }
 
-body.pkp_page_index .office-contact-item a {
+body.lexa-theme-layout .office-contact-item a {
   color: #E2E8F0 !important;
   text-decoration: none !important;
 }
 
-body.pkp_page_index .office-contact-item a:hover {
+body.lexa-theme-layout .office-contact-item a:hover {
   color: #38BDF8 !important;
   text-decoration: underline !important;
 }
 
-body.pkp_page_index .footer-links-grid {
+body.lexa-theme-layout .footer-links-grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
   gap: 12px !important;
 }
 
-body.pkp_page_index .footer-nav-list {
+body.lexa-theme-layout .footer-nav-list {
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-body.pkp_page_index .footer-nav-list li {
+body.lexa-theme-layout .footer-nav-list li {
   margin-bottom: 8px !important;
   list-style: none !important;
 }
 
-body.pkp_page_index .footer-nav-list a {
+body.lexa-theme-layout .footer-nav-list a {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-size: 12.5px !important;
   color: #CBD5E1 !important;
@@ -6647,19 +6647,19 @@ body.pkp_page_index .footer-nav-list a {
   transition: all 0.2s ease-in-out !important;
 }
 
-body.pkp_page_index .footer-nav-list a:hover {
+body.lexa-theme-layout .footer-nav-list a:hover {
   color: #FFFFFF !important;
   padding-left: 4px !important;
   text-decoration: none !important;
 }
 
-body.pkp_page_index .footer-social-icons {
+body.lexa-theme-layout .footer-social-icons {
   display: flex !important;
   gap: 10px !important;
   margin-bottom: 16px !important;
 }
 
-body.pkp_page_index .social-icon-btn {
+body.lexa-theme-layout .social-icon-btn {
   width: 34px !important;
   height: 34px !important;
   border-radius: 4px !important;
@@ -6673,22 +6673,22 @@ body.pkp_page_index .social-icon-btn {
   text-decoration: none !important;
 }
 
-body.pkp_page_index .social-icon-btn:hover {
+body.lexa-theme-layout .social-icon-btn:hover {
   background-color: #134074 !important;
   color: #FFFFFF !important;
   transform: translateY(-2px) !important;
 }
 
-body.pkp_page_index .footer-flag-counter {
+body.lexa-theme-layout .footer-flag-counter {
   margin-bottom: 16px !important;
 }
 
-body.pkp_page_index .footer-flag-counter img {
+body.lexa-theme-layout .footer-flag-counter img {
   border-radius: 4px !important;
   border: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
-body.pkp_page_index .footer-oa-badge {
+body.lexa-theme-layout .footer-oa-badge {
   display: flex !important;
   align-items: center !important;
   gap: 12px !important;
@@ -6698,14 +6698,14 @@ body.pkp_page_index .footer-oa-badge {
   box-shadow: none !important;
 }
 
-body.pkp_page_index .footer-oa-badge .oa-logo-img {
+body.lexa-theme-layout .footer-oa-badge .oa-logo-img {
   height: 36px !important;
   width: auto !important;
   object-fit: contain !important;
   display: block !important;
 }
 
-body.pkp_page_index .footer-oa-badge .oa-text strong {
+body.lexa-theme-layout .footer-oa-badge .oa-text strong {
   display: block !important;
   font-size: 12.5px !important;
   font-weight: 700 !important;
@@ -6713,14 +6713,14 @@ body.pkp_page_index .footer-oa-badge .oa-text strong {
   line-height: 1.3 !important;
 }
 
-body.pkp_page_index .footer-oa-badge .oa-text p {
+body.lexa-theme-layout .footer-oa-badge .oa-text p {
   margin: 2px 0 0 !important;
   font-size: 11px !important;
   color: #94A3B8 !important;
   line-height: 1.3 !important;
 }
 
-body.pkp_page_index .lexa-subfooter {
+body.lexa-theme-layout .lexa-subfooter {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
@@ -6730,28 +6730,28 @@ body.pkp_page_index .lexa-subfooter {
   color: #94A3B8 !important;
 }
 
-body.pkp_page_index .lexa-subfooter a {
+body.lexa-theme-layout .lexa-subfooter a {
   color: #CBD5E1 !important;
   text-decoration: none !important;
 }
 
-body.pkp_page_index .lexa-subfooter a:hover {
+body.lexa-theme-layout .lexa-subfooter a:hover {
   color: #FFFFFF !important;
   text-decoration: underline !important;
 }
 
 @media (max-width: 991px) {
-  body.pkp_page_index .lexa-footer-main {
+  body.lexa-theme-layout .lexa-footer-main {
     grid-template-columns: 1fr 1fr !important;
     gap: 28px !important;
   }
 }
 
 @media (max-width: 640px) {
-  body.pkp_page_index .lexa-footer-main {
+  body.lexa-theme-layout .lexa-footer-main {
     grid-template-columns: 1fr !important;
   }
-  body.pkp_page_index .lexa-subfooter {
+  body.lexa-theme-layout .lexa-subfooter {
     flex-direction: column !important;
     gap: 10px !important;
     text-align: center !important;
@@ -6764,3 +6764,68 @@ body.pkp_page_index .lexa-subfooter a:hover {
     color: rgba(0,0,0,0.54);
     font-weight: 700;
     text-transform: uppercase; */
+
+/* =========================================================================
+ * SUBPAGE ENHANCEMENTS (BREADCRUMBS & PAGE TITLES)
+ * ========================================================================= */
+body.lexa-theme-layout .cmp_breadcrumbs {
+  margin: 0 0 20px 0 !important;
+  font-family: 'Inter', -apple-system, sans-serif !important;
+  font-size: 13px !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs ol {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  align-items: center !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs li {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin: 0 !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs a {
+  color: #134074 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs a:hover {
+  color: #2B7DE9 !important;
+  text-decoration: underline !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs .separator {
+  color: #94A3B8 !important;
+  font-size: 11px !important;
+}
+
+body.lexa-theme-layout .cmp_breadcrumbs .current {
+  color: #64748B !important;
+  font-weight: 600 !important;
+}
+
+body.lexa-theme-layout h1.page_title,
+body.lexa-theme-layout .page_title,
+body.lexa-theme-layout .page_issue_archive h1,
+body.lexa-theme-layout .page_about h1,
+body.lexa-theme-layout .page_announcements h1 {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  border-left: 4px solid #134074 !important;
+  border-bottom: none !important;
+  padding: 2px 0 2px 14px !important;
+  margin: 0 0 24px 0 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}

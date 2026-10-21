@@ -5,9 +5,9 @@
  * Scoped conditionally for journal "innovatics" to protect other journals on the portal.
  *}
 {if $currentJournal && $currentJournal->getPath() == 'innovatics'}
-	{if !$requestedPage || $requestedPage === 'index'}
+	{if $requestedPage !== 'article'}
 		{* ========================================================================= *}
-		{* INNOVATICS JOURNAL LANDING PAGE HEADER (LEXA THEME SUITE)                 *}
+		{* INNOVATICS JOURNAL HEADER (LEXA THEME SUITE: LANDING PAGE + SUBPAGES)     *}
 		{* ========================================================================= *}
 		{strip}
 			{assign var="showingLogo" value=false}
@@ -19,7 +19,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
-		<body class="pkp_page_index pkp_op_index" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
+		<body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"} lexa-theme-layout" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
 
 			<div class="pkp_structure_page">
 
@@ -91,16 +91,16 @@
 				<nav class="lexa-navbar-wrapper" aria-label="Main Navigation">
 					<div class="lexa-container lexa-navbar-inner">
 						<ul class="lexa-navbar-menu">
-							<li class="menu-item active">
+							<li class="menu-item {if !$requestedPage || $requestedPage === 'index'}active{/if}">
 								<a href="{url page="index"}">Home</a>
 							</li>
-							<li class="menu-item">
+							<li class="menu-item {if $requestedPage === 'issue' && $requestedOp === 'archive'}active{/if}">
 								<a href="{url page="issue" op="archive"}">Archives</a>
 							</li>
-							<li class="menu-item">
+							<li class="menu-item {if $requestedPage === 'announcement'}active{/if}">
 								<a href="{url page="announcement"}">Announcements</a>
 							</li>
-							<li class="menu-item has-dropdown">
+							<li class="menu-item has-dropdown {if $requestedPage === 'about'}active{/if}">
 								<a href="{url page="about"}">About <i class="fa fa-chevron-down nav-chevron"></i></a>
 								<ul class="dropdown-menu">
 									<li><a href="{url page="about"}">About the Journal</a></li>
@@ -108,11 +108,11 @@
 									<li><a href="{url page="about" op="editorialTeam"}">Editorial Team</a></li>
 								</ul>
 							</li>
-							<li class="menu-item">
+							<li class="menu-item {if $requestedPage === 'issue' && ($requestedOp === 'current' || $requestedOp === 'view')}active{/if}">
 								<a href="{url page="issue" op="current"}">Current</a>
 							</li>
 							{if !$isUserLoggedIn}
-							<li class="menu-item">
+							<li class="menu-item {if $requestedPage === 'login'}active{/if}">
 								<a href="{url page="login"}">Login</a>
 							</li>
 							{/if}
@@ -120,7 +120,8 @@
 					</div>
 				</nav>
 
-				{* 4. LEXA Hero Banner & Metrics Ribbon (Full Width Above Content & Sidebar) *}
+				{* 4. LEXA Hero Banner & Metrics Ribbon (ONLY ON LANDING PAGE) *}
+				{if !$requestedPage || $requestedPage === 'index'}
 				<div class="lexa-hero-container">
 					<div class="lexa-hero-banner">
 						<div class="lexa-hero-content">
@@ -181,6 +182,7 @@
 						</div>
 					</div>
 				</div>
+				{/if}
 
 				{* Wrapper for page content and sidebars *}
 				{if $isFullWidth}
@@ -191,7 +193,7 @@
 						<a id="pkp_content_main"></a>
 	{else}
 		{* ========================================================================= *}
-		{* INNOVATICS ARTICLE & SUBPAGES - 100% ORIGINAL DEFAULT OJS HEADER          *}
+		{* INNOVATICS ARTICLE VIEW PAGE - 100% ORIGINAL DEFAULT OJS HEADER           *}
 		{* ========================================================================= *}
 		{strip}
 			{assign var="showingLogo" value=true}
