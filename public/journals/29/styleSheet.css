@@ -7388,3 +7388,137 @@ body.lexa-theme-layout .badge-scholar:hover {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* =========================================================================
+ * PRIORITAS 2 (OPSI B): SUBMISSIONS PAGE STYLING
+ * ========================================================================= */
+body.lexa-theme-layout .page_submissions .cmp_notification {
+  background-color: #F0F7FF !important;
+  border: 1px solid #BFDBFE !important;
+  border-left: 4px solid #134074 !important;
+  border-radius: 8px !important;
+  padding: 18px 24px !important;
+  margin-bottom: 28px !important;
+  font-family: 'Inter', -apple-system, sans-serif !important;
+  font-size: 14px !important;
+  color: #1E293B !important;
+  box-shadow: 0 2px 6px rgba(19, 64, 116, 0.05) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .page_submissions .cmp_notification a {
+  display: inline-flex !important;
+  align-items: center !important;
+  font-weight: 700 !important;
+  color: #134074 !important;
+  text-decoration: underline !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_submissions .cmp_notification a:hover {
+  color: #2B7DE9 !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist,
+body.lexa-theme-layout .page_submissions .section_policy,
+body.lexa-theme-layout .page_submissions .copyright_notice,
+body.lexa-theme-layout .page_submissions .privacy_statement,
+body.lexa-theme-layout .page_submissions .author_guidelines {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+  padding: 26px 28px !important;
+  box-shadow: 0 2px 8px rgba(10, 37, 64, 0.04) !important;
+  margin-bottom: 24px !important;
+  box-sizing: border-box !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist:hover,
+body.lexa-theme-layout .page_submissions .section_policy:hover,
+body.lexa-theme-layout .page_submissions .copyright_notice:hover,
+body.lexa-theme-layout .page_submissions .privacy_statement:hover,
+body.lexa-theme-layout .page_submissions .author_guidelines:hover {
+  border-color: #CBD5E1 !important;
+  box-shadow: 0 4px 14px rgba(10, 37, 64, 0.08) !important;
+}
+
+body.lexa-theme-layout .page_submissions h2 {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 18.5px !important;
+  font-weight: 700 !important;
+  color: #0A2540 !important;
+  border-left: 4px solid #134074 !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  padding: 2px 0 2px 12px !important;
+  margin: 0 0 16px 0 !important;
+  line-height: 1.3 !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist ul {
+  list-style: none !important;
+  margin: 18px 0 0 0 !important;
+  padding: 0 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist li {
+  position: relative !important;
+  padding: 14px 18px !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  border-top: none !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 14px !important;
+  font-family: 'Inter', -apple-system, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #334155 !important;
+  line-height: 1.6 !important;
+  background-color: #FFFFFF !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist li:last-child {
+  border-bottom: none !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist li:before {
+  display: none !important;
+  content: none !important;
+}
+
+body.lexa-theme-layout .page_submissions .submission_checklist li .fa,
+body.lexa-theme-layout .page_submissions .submission_checklist li .fa-check {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: #DCFCE7 !important;
+  color: #16A34A !important;
+  border-radius: 50% !important;
+  font-size: 11px !important;
+  flex-shrink: 0 !important;
+  margin-top: 2px !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+body.lexa-theme-layout .page_submissions p {
+  font-family: 'Inter', -apple-system, sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
+}
